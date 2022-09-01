@@ -277,19 +277,19 @@ nav {
 }
 
 .icon-antena::before {
-  background-image: url(/images/svg/antenna\ 1.svg);
+  background-image: url(../images/svg/antenna\ 1.svg);
 }
 
 .icon-clock::before {
-  background-image: url(/images/svg/clock\ 1.svg);
+  background-image: url(../images/svg/clock\ 1.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(/images/svg/diagram\ 1.svg);
+  background-image: url(../images/svg/diagram\ 1.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(/images/svg/astronaut\ 1.svg);
+  background-image: url(../images/svg/astronaut\ 1.svg);
 }
 
 /* Чим ми займаємося */
@@ -428,9 +428,8 @@ nav {
 
 .join h2 {
   color: var(--primary-white-color);
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
 }
 
 .join-list {
@@ -453,19 +452,19 @@ nav {
 }
 
 .join .icon-instagram {
-  background-image: url(/images/svg/instagram\ 2.svg);
+  background-image: url(../images/svg/instagram\ 2.svg);
 }
 
 .join .icon-twitter {
-  background-image: url(/images/svg/instagram\ 2.svg);
+  background-image: url(../images/svg/twitter\ 2.svg);
 }
 
 .join .icon-facebook {
-  background-image: url(/images/svg/instagram\ 2.svg);
+  background-image: url(../images/svg/facebook\ 2.svg);
 }
 
 .join .icon-linkedin {
-  background-image: url(/images/svg/instagram\ 2.svg);
+  background-image: url(../images/svg/linkedin\ 2.svg);
 }
 
 .join .item:hover {
