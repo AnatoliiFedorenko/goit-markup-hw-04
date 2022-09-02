@@ -161,8 +161,6 @@ nav {
 
 .contacts-icon {
   fill: currentColor;
-  height: 16px;
-  width: 12px;
   margin-right: 10px;
 }
 
@@ -281,10 +279,13 @@ nav {
   line-height: 1.7;
 }
 
-/* background */
+.advantages-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .advantages-icon {
-  display: block;
-  content: "";
   height: 120px;
   background-color: #f5f4fa;
   border: 1px solid transparent;
@@ -376,17 +377,24 @@ nav {
 
 .team-link {
   color: #afb1b8;
+
+  height: 44px;
+  width: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
 }
 
 .team-icon {
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
   fill: currentColor;
 }
 
 .team-link:hover {
-  color: var(--accent-text-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
 }
 
 .team-social .items + .items {
@@ -422,6 +430,13 @@ nav {
 }
 
 .clients-link {
+  width: 170px;
+  height: 92px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 6px;
@@ -429,8 +444,6 @@ nav {
 
 .clients-icon {
   fill: currentColor;
-  width: 170px;
-  height: 92px;
 }
 
 .clients-link:hover {
@@ -521,16 +534,24 @@ nav {
   margin-left: 10px;
 }
 
-.join-icon {
-  fill: var(--primary-white-color);
+.join-link {
+  color: var(--primary-white-color);
+
   height: 44px;
   width: 44px;
 
-  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border-radius: 50%;
 }
 
-.join-icon:hover {
+.join-icon {
+  fill: currentColor;
+}
+
+.join-link:hover {
   background-color: var(--accent-text-color);
 }
 
