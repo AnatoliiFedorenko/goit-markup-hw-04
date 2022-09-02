@@ -359,6 +359,41 @@ nav {
   text-align: center;
 }
 
+/* клієнти */
+.clients {
+  background-color: #f5f5f5;
+}
+
+.clients h2 {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-list .items {
+  display: flex;
+  align-items: center;
+}
+
+.clients-list .items + .items {
+  margin-left: 30px;
+}
+
+.clients-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 6px;
+}
+
 /* Підвал */
 .bottom {
   background-color: #2f303a;
