@@ -156,13 +156,19 @@ nav {
 .contacts-link {
   display: flex;
   align-items: center;
+  color: #757575;
 }
 
 .contacts-icon {
-  display: flex;
+  fill: currentColor;
   height: 16px;
   width: 12px;
   margin-right: 10px;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-text-color);
 }
 
 /* ефективні рішення */
@@ -368,15 +374,19 @@ nav {
   margin-right: 32px;
 }
 
+.team-link {
+  color: #afb1b8;
+}
+
 .team-icon {
-  display: flex;
   height: 44px;
   width: 44px;
   border-radius: 50%;
+  fill: currentColor;
 }
 
-.team-icon:hover {
-  background-color: var(--accent-text-color);
+.team-link:hover {
+  color: var(--accent-text-color);
 }
 
 .team-social .items + .items {
@@ -411,10 +421,21 @@ nav {
   margin-left: 30px;
 }
 
+.clients-link {
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 6px;
+}
+
 .clients-icon {
+  fill: currentColor;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+}
+
+.clients-link:hover {
+  color: var(--accent-text-color);
+  border: 1px solid var(--accent-text-color);
   border-radius: 6px;
 }
 
@@ -501,7 +522,7 @@ nav {
 }
 
 .join-icon {
-  display: flex;
+  fill: var(--primary-white-color);
   height: 44px;
   width: 44px;
 
