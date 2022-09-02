@@ -171,13 +171,12 @@ nav {
 
 /* ефективні рішення */
 .solutions {
-  background-color: #2f303a;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/background.jpg);
+    url(../images/background.jpg);
   /* background-image: url(/images/background.jpg); */
   padding: 200px 0;
   max-width: 1600px;
@@ -226,10 +225,6 @@ nav {
 }
 
 /* переваги */
-.advantages {
-  background-color: #f5f5f5;
-}
-
 .advantages h2 {
   /* display: none;
   font-weight: 700;
@@ -283,11 +278,17 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  height: 120px;
+  width: 270px;
+
+  background-color: #f5f4fa;
+
+  border: 1px solid transparent;
+  border-radius: 6px;
 }
 
 .advantages-icon {
-  height: 120px;
-  background-color: #f5f4fa;
   border: 1px solid transparent;
   border-radius: 6px;
   /* outline: 2px solid red; */
@@ -295,7 +296,6 @@ nav {
 
 /* Чим ми займаємося */
 .examples {
-  background-color: #f5f5f5;
   padding-bottom: 94px;
 }
 
@@ -392,7 +392,8 @@ nav {
   fill: currentColor;
 }
 
-.team-link:hover {
+.team-link:hover,
+.team-link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
 }
@@ -402,10 +403,6 @@ nav {
 }
 
 /* клієнти */
-.clients {
-  background-color: #f5f5f5;
-}
-
 .clients h2 {
   color: var(--primary-text-color);
   font-size: 36px;
@@ -446,7 +443,8 @@ nav {
   fill: currentColor;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
   border-radius: 6px;
@@ -511,6 +509,10 @@ nav {
   color: var(--accent-text-color);
 }
 
+.address-link {
+  margin: 9px 0;
+}
+
 .contacts-bottom .mail {
   margin: 9px 0;
 }
@@ -545,13 +547,16 @@ nav {
   align-items: center;
 
   border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .join-icon {
   fill: currentColor;
 }
 
-.join-link:hover {
+.join-link:hover,
+.join-link:focus {
   background-color: var(--accent-text-color);
 }
 
@@ -581,7 +586,7 @@ nav {
   display: flex;
   border: 1px solid transparent;
   border-radius: 6px;
-  padding: 10px 32px;
+  padding: 6px 22px;
 
   color: var(--primary-text-color);
   background-color: #f5f4fa;
